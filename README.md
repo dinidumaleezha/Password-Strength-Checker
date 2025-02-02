@@ -1,32 +1,16 @@
 # Password Strength Checker
 
 ## Description
-Password Strength Checker is a simple tool that evaluates the security level of a password based on various parameters such as length, complexity, and uniqueness. The tool helps users create stronger passwords to enhance security.
+Password Strength Checker is a tool designed to measure the security of a password. It calculates the strength based on password length, complexity, and uniqueness.
 
 ## Features
 - Checks password length and complexity
 - Provides real-time feedback on password strength
 - Detects common patterns and weak passwords
-- Supports custom rules for password validation
+- Allows customization of password validation rules
 
-## Installation
-### Clone the Repository
-```sh
-git clone https://github.com/your-username/Password-Strength-Checker.git
-cd Password-Strength-Checker
-```
-
-### Install Dependencies
-#### Python Version
-```sh
-pip install -r requirements.txt
-```
-
-#### JavaScript Version
-If using a frontend version with JavaScript:
-```sh
-npm install
-```
+## Development Environment
+This project was developed using NetBeans IDE.
 
 ## Usage
 ### Python Version
