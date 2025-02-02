@@ -12,15 +12,26 @@ Password Strength Checker is a tool designed to measure the security of a passwo
 ## Development Environment
 This project was developed using NetBeans IDE.
 
-## Usage
-### Python Version
-Run the script and enter a password to check its strength:
-```sh
-python checker.py
-```
+## Implementation
+The tool uses Java Swing for UI components and regular expressions to analyze password strength. The main functionality is implemented in the `checkPasswordActionPerformed` method, which:
+1. Retrieves user input.
+2. Validates the input length.
+3. Calls `checkPasswordStrength` to evaluate password security.
 
-### JavaScript/Frontend Version
-Open `index.html` in a browser to use the web-based password strength checker.
+The `checkPasswordStrength` function assigns a score based on the presence of:
+- Lowercase letters
+- Uppercase letters
+- Numbers
+- Special characters
+
+Based on the score, the password is classified as Weak, Medium, or Strong, with corresponding color-coded feedback.
+
+## Usage
+### Java Version
+Run the Java application in NetBeans:
+1. Open the project in NetBeans.
+2. Run `CheckePassword.java`.
+3. Enter a password in the input field and click the check button to see the strength evaluation.
 
 ## Contributing
 1. Fork the repository
