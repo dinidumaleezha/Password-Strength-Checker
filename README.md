@@ -3,6 +3,7 @@
 ## Description
 Password Strength Checker is a Java-based application that evaluates the security of a given password. It checks password length, complexity, and character variety to classify passwords as Weak, Medium, or Strong.
 
+## Screenshot
 ![Password Strength Checker Screenshot](screenshot/screenshot.png)
 
 ## Features
